@@ -5,22 +5,31 @@
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0px;
-    padding: 0px;
 }
 
 body {
-    background-image: linear-gradient(to right,rgb(22, 3, 65), rgb(70, 25, 105), rgb(124, 60, 120));
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
+    background-image: linear-gradient(to right, rgb(66, 8, 66), rgb(88, 18, 121), rgb(170, 79, 230));
+    height: 100vh;
+    margin: 0px;
+
+    font-family: sans-serif;
 
 }
-header #ipesquisa{width: 50%; height: 25px; border-radius: 33px; background-color: #ff910252; box-shadow: 1px 1px 3px black; font-size: large; color: darkblue; text-shadow:1px 1px 1px rgb(243, 2, 211); }
+
+header #ipesquisa {
+    width: 50vw;
+    height: 25px;
+    border-radius: 33px;
+    background-color: #ff910252;
+    box-shadow: 1px 1px 3px black;
+    font-size: large;
+    color: darkblue;
+    text-shadow: 1px 1px 1px rgb(243, 2, 211);
+}
 
 header {
     background-image: url(imagens/Fundo.jpg);
-    padding: 9px;
+    padding: 1px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -66,7 +75,8 @@ header ul li a {
     text-decoration: none;
     color: #ffffff;
     text-shadow: 1px 1px 2px black;
-    font-family:sans-serif; text-shadow: 0px 0px 5px rgb(225, 0, 255);
+    font-family: sans-serif;
+    text-shadow: 0px 0px 5px rgb(225, 0, 255);
 
 
 
@@ -81,9 +91,84 @@ header ul {
 
 
 main h2 {
+    text-align: center;
     color: #ffffff;
-    text-shadow: 1px 1px 3px #f700ff
+    text-shadow: 1px 1px 3px #000000;
+    padding-top: 7vh;
+    margin: 5vh;
+    font-size: 1.5em;
+
 }
 
-header > #botao { text-align: center;  }
+h2 span {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;   
+    font-size: 2em;
+}
+strong{font-size: 2em;}
 
+header>#botao {
+    text-align: center;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.item {
+
+    width: 27vw;
+    height: 65vh;
+    position: relative;
+    background-image: var(--url);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1vw;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px #000000;
+    color: rgb(162, 0, 255);
+    font-size: 1.2em;
+}
+
+.overlay {
+    background-color:  rgb(0, 0, 0, 0.5);
+    border-radius: 3vw;
+    position: absolute;
+    height: 65vh;
+    width: 100%;
+    opacity: auto;
+    background: rgb(0, 0, 0, 0.4);
+}
+
+.menu {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+    border-radius: 0 0 3vw 3vw;
+    transform: translateX(-50%);
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(29, 28, 28), rgb(0, 0, 0));
+    opacity: 0;
+}
+
+.menu label {
+    color: white;
+    display: block;
+    font-size: 20px;
+    letter-spacing: -2px;
+    word-spacing: -10px;
+    
+    overflow-x: hidden;
+    text-shadow: 0 0 10px 2px  rgb(0, 0, 0, 0.4);
+}

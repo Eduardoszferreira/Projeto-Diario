@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="imagens/516fb53642fbca78f3ee5c7f2a213e1c.jpg" type="image/x-icon">
@@ -17,8 +18,8 @@
     <header>
         <h1>Athena's Library</h1>
         <p><strong>Biblioteca de estudos em Html css & Javascript.</strong> </p>
-           <p>&#x1F50D<input type="search" name="pesquisa" id="ipesquisa"></p>
-           
+        <p>&#x1F50D<input type="search" name="pesquisa" id="ipesquisa"></p>
+
         <ul>
             <li><a href="/HTML/html1.html">Html 5</a></li>
             <li><a href="#">Css3</a></li>
@@ -29,14 +30,34 @@
     </header>
 
     <main>
+        <h2><strong>E</strong>studos Front End<br> <span>Lista</span>
+        </h2>
+
+
+        <div class="group">
+            <div class="item" style="background-image:url(LOGO/HTML.png);">
+                <div class="overlay"></div>
+                <div class="menu"><label for="menu">Html5</label></div>
+
+            </div>
+            <div class="item" style="background-image:url(LOGO/CSS.png);">
+                <div class="overlay"></div>
+                <div class="menu"><label for="menu">Css3</label></div>
+
+            </div>
+
+            <div class="item" style="background-image:url(LOGO/JS.png);">
+                
+                <div class="overlay"></div>
+                <div class="menu"><label for="menu">JavaScript</label></div>
+
+            </div>
+        </div>
+        <script src="script.js"></script>
 
     </main>
-
-
-
-
     <footer>
-
+<p>123</p>
     </footer>
 
 </body>
