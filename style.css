@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right, rgb(66, 8, 66), rgb(88, 18, 121), rgb(170, 79, 230));
+    background: linear-gradient(to right, rgb(49, 2, 63), rgb(109, 0, 160), rgb(42, 1, 48));
     height: 100vh;
     margin: 0px;
 
@@ -100,6 +100,7 @@ main h2 {
 
 }
 
+
 h2 span {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 3px rgb(0, 0, 0);
@@ -124,7 +125,7 @@ header>#botao {
 
 .item {
 
-    width: 27vw;
+    width: 20vw;
     height: 65vh;
     position: relative;
     background-image: var(--url);
@@ -141,12 +142,13 @@ header>#botao {
 
 .overlay {
     background-color:  rgb(0, 0, 0, 0.5);
-    border-radius: 3vw;
+    
     position: absolute;
     height: 65vh;
     width: 100%;
     opacity: auto;
-    background: rgb(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
 }
 
 .menu {
@@ -156,11 +158,14 @@ header>#botao {
     width: 100%;
     padding-top: 20vh;
     padding-bottom: 10vh;
-    border-radius: 0 0 3vw 3vw;
+    
     transform: translateX(-50%);
-    background: linear-gradient(to top, rgb(0, 0, 0), rgb(29, 28, 28), rgb(0, 0, 0));
-    opacity: 0;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0));
+    opacity: 0,5;
+    
 }
+.menu a{text-decoration: none; color: white; font-size:1.3em; font-family: sans-serif;}
+.menu a:hover{color: #000000; text-shadow:0px 0px 7px rgb(175, 0, 245);}
 
 .menu label {
     color: white;

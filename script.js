@@ -15,7 +15,7 @@ const expand = (item, i) => {
     gsap.to(items, {
         width: item.clicked ? "10vw" : "8vw",
         duration: 1,
-        ease: "elactic(1, .6)"
+        ease: "elactic(1, .3)"
     });
     gsap.killTweensOf(item);
     item.clicked = !item.clicked;
