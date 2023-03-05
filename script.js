@@ -32,3 +32,13 @@ items.forEach((item, i) => {
     item.childNodes[3].clicked = false;
     item.addEventListener("click", () => expand(item, i));
 });
+//daki pra frente é meu 
+var data = new Date()
+var hora = data.getHours
+
+if (hora <= 11) {
+    document.body.style.background = '#eed37c'
+
+} else if (hora <= 18) {
+    document.body.style.background = '#f7b68c'
+} else { document.body.style.background = '#2b1346' }
