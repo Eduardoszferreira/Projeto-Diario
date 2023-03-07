@@ -1,4 +1,14 @@
 @charset "UTF-8";
+*{
+    padding: 0px;
+    width: 0px;
+}
+body {
+    background-color: rgb(128, 226, 226);
+}
 
-body{background-color: rgb(128, 226, 226);}
-h1{color: white; text-shadow: 1px 1px 3px black; text-align: center;}
+h1 {
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+}
