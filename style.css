@@ -65,11 +65,11 @@ header ul li {
     list-style: none;
     display: inline-block;
 
-    margin: 2px;
+    margin: auto;
     background-image: url(imagens/FUNDAO.jpg);
-    background-size: 100%;
-    padding: 8px;
-    border-radius: 3px;
+    background-size: cover;
+    padding: 6px;
+    border-radius: 9px;
     margin: 3px;
     box-shadow: 0px 0px 8px#00fff2;
 
@@ -93,6 +93,7 @@ header ul li a {
 header ul {
     text-align: center;
     font-size: 1.1em;
+    margin: auto;
 }
 
 
