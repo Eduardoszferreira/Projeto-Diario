@@ -83,6 +83,7 @@ header ul li a {
     text-shadow: 1px 1px 2px black;
     font-family: sans-serif;
     text-shadow: 0px 0px 5px rgb(225, 0, 255);
+    display: inline-block;
 
 
 
