@@ -5,6 +5,8 @@
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+  
 }
 
 body {
@@ -19,6 +21,7 @@ body {
 header #ipesquisa {
     width: 50vw;
     height: 25px;
+    margin: ;
     border-radius: 33px;
     background-color: #ff910252;
     box-shadow: 1px 1px 3px black;
@@ -26,10 +29,11 @@ header #ipesquisa {
     color: darkblue;
     text-shadow: 1px 1px 1px rgb(243, 2, 211);
 }
+header #pdopesquisa{margin: 22px;}
 
 header {
     background-image: url(imagens/wallpaper\ giff.gif);
-    padding: 1px;
+    padding:1px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -47,10 +51,11 @@ header h1 {
 
 header p {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.7em;
     color: #fa00b7;
     text-shadow: 1px 1px 2px rgb(0, 89, 255);
-    margin-bottom: 19px;
+    margin: 5px;
+   
 
 
 }
