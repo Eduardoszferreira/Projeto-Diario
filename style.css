@@ -28,11 +28,12 @@ header #ipesquisa {
 }
 
 header {
-    background-image: url(imagens/Fundo.jpg);
+    background-image: url(imagens/wallpaper\ giff.gif);
     padding: 1px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.603);
 }
 
 header h1 {
@@ -60,7 +61,7 @@ header ul li {
     display: inline-block;
 
     margin: 2px;
-    background-image: url(imagens/);
+    background-image: url(imagens/FUNDAO.jpg);
     background-size: 100%;
     padding: 8px;
     border-radius: 3px;
@@ -138,7 +139,7 @@ header>#botao {
     margin: 1vw;
     display: inline-block;
     cursor: pointer;
-    box-shadow: 0px 0px 10px 2px #000000;
+    box-shadow:0px 0px  4px 5px #000000;
     color: rgb(162, 0, 255);
     font-size: 1.2em;
 }
