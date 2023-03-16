@@ -38,7 +38,7 @@ var data = new Date()
 var hora = data.getHours()
 
 if (hora <= 11) {
-    document.body.style.background = '#f3c587'
+    document.body.style.background = '#a10b95'
 } else if (hora <= 18) {
-    document.body.style.background = '#d870a3'
-} else { document.body.style.background = '#7d50a1' }
+    document.body.style.background = '#7d0baa'
+} else { document.body.style.background = '#4b0f74' }
