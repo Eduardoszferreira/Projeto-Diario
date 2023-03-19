@@ -38,7 +38,7 @@ var data = new Date()
 var hora = data.getHours()
 
 if (hora <= 11) {
-    document.body.style.background = '#a10b95'
+    document.body.style.background = 'url("imagens/OCA.jpg")'
 } else if (hora <= 18) {
-    document.body.style.background = '#7d0baa'
-} else { document.body.style.background = '#4b0f74' }
+    document.body.style.background = 'url("imagens/OCA.jpg")'
+} else { document.body.style.background = 'url("imagens/OCA.jpg")' }
