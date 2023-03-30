@@ -15,8 +15,8 @@
     font-size: 1.2em;
 
     position: absolute;
-    top: 180px;
-    left: 4px;
+    top: 220px;
+    left: 6px;
 
     width: 181px;
     height: 523px;
@@ -113,7 +113,7 @@
 
 body {
 
-    background-image: url(imagens/mato2.jpg);
+    background-image: url(imagens/Mato22.jpg);
     background-size: cover;
 
     display: flex;
@@ -169,8 +169,8 @@ header p {
 
 section {
     position: absolute;
-    top: 212px;
-    left: 220px;
+    top: 219px;
+    left: 285px;
     width: 70vw;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.466);
@@ -185,6 +185,26 @@ section img {
     width: 500px;
     text-align: center;
     border-radius: 15px;
+}
+
+footer {
+    position: absolute;
+    top: 900px;
+    left: 285px;
+    width: ;
+    width: 70vw;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 22px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin: auto;
+    text-shadow: 1px 1px 2px black;
+    text-align: right;
+}
+
+footer a {
+    color: white;
 }
 
 #img01 {
