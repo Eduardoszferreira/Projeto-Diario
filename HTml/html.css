@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+header {
+    background-color:rgb(66, 66, 145);
+    height: 150px;
+
+}
