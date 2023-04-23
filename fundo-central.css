@@ -1,230 +1,28 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'athena';
-    src: url(Fonts/SaintCarell_PERSONAL_USE_ONLY.otf);
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-#menu {
-    font-family: sans-serif;
-    font-size: 1.2em;
-
-    position: absolute;
-    top: 220px;
-    left: 6px;
-
-    width: 181px;
-    height: 523px;
-
-    background-color: rgba(58, 58, 58, 0.224);
-    backdrop-filter: blur(6px);
-
-    box-shadow: 8px 0px 1px rgba(96, 155, 104, 0.973);
-
-    border-radius: 20px;
-}
-
-#menu ul {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    padding-left: 10px;
-    padding-top: 30px;
-
-}
-
-#menu ul li {
-    position: relative;
-    list-style: none;
-    width: 99%;
-
-
-}
-
-#menu ul li a {
-    position: relative;
-    display: flex;
-    width: 100%;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 2px black;
-}
-
-#menu ul li a .icone {
-    position: relative;
-    display: block;
-    min-width: 60px;
-    text-align: center;
-    line-height: 70px;
-
-
-}
-
-#menu ul li a .icone ion-icon {
-    position: relative;
-    font-size: 1.5em;
-    z-index: 1;
-    color: rgb(135, 163, 131);
-
-
-}
-
-#menu ul li a .lista {
-    position: relative;
-    display: block;
-    padding-left: 5px;
-    height: 41px;
-    line-height: 60px;
-    white-space: nowrap;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
-}
-
-#menu ul li:hover {
-
-    background-image: linear-gradient(to right, rgb(43, 84, 49), rgba(93, 155, 109, 0.82), rgba(16, 98, 27, 0));
-    border-radius: 2px 2px 2px 40px;
-
-
-}
-
-#menu ul li a .icone ion-icon:hover {
-    color: white;
-}
-
-#menu p {
-    color: white;
-    font-size: 0.5em;
-    text-align: center;
-    margin-top: 22px;
-}
-
-/*DAKI PRA BAIXO*/
-/*DAKI PRA BAIXO*/
-/*DAKI PRA BAIXO*/
-
-
-
-
-
 body {
-
-    background-image: url(imagens/Mato22.jpg);
-    background-size: cover;
-
-    display: flex;
-    background-color: black;
-
-
+    background-color: rgb(15, 15, 14);
 }
 
-h1 {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'athena';
-}
-
-
-header {
-
-    background-image: url(imagens/GIF-D1.gif);
-    background-size: cover;
-    background-position: right;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 150px;
-    margin: auto;
-    padding-top: 20px;
-    box-shadow: 0px 2px 13px black;
-
-}
-
-header h1 {
-    font-size: 3em;
-    text-shadow: 1px 1px 3px black;
-}
-
-#cabesario {
-    background-color: rgba(58, 58, 58, 0.224);
-    width: 800px;
-    height: 110px;
-    backdrop-filter: blur(6px);
-    border-radius: 20px;
-    margin: auto;
-    box-shadow: 2px 2px 8px black;
-
-}
-
-header p {
-    color: white;
-    font-size: small;
-    font-family: sans-serif;
-    text-align: center;
-    text-shadow: 1px 1px 3px black;
-}
-
-section {
-
-    top: 219px;
-    left: 285px;
-    width: 60vw;
-    padding: 20px;
-    border-radius: 22px;
-    text-align: justify;
-  
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    position: absolute;
-
-
-    color: white;
-    backdrop-filter: blur(6px);
-    background-color: rgba(58, 58, 58, 0.32);
-    text-shadow: 1px 1px 2px black;
-}
-
-section img {
-    width: 500px;
-    text-align: center;
-    border-radius: 15px;
-}
-
-#img01 {
-    text-align: center;
-}
-
-
-footer {
-    position: absolute;
-    top: 900px;
-    left: 285px;
-
-    width: 73vw;
-    padding: 1px;
-    background-color: rgba(0, 0, 0, 0.466);
-    border-radius: 22px;
-    font-family: sans-serif;
-    font-weight: bolder;
-
-    text-shadow: 1px 1px 2px black;
-
-}
-
-footer a {
-    color: white;
-
+a {
+    font-family: cursive;
+    color: antiquewhite;
+    padding: 10px;
     text-decoration: none;
-
 }
 
-section #titulo1
-{
-  text-align: center;
+a:hover {
+    color: rgb(135, 135, 135);
+}
+
+main {
+    background-color: aqua;
+    background-image: url(imagens/QUALIDADE_BOA_GATO.png);
+
+    background-size: 100% 100%;
+    width: 48vw;
+    height: 49vh;
+    margin: auto;
+    margin-top: 50px;
+
 }
