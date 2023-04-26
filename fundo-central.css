@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgb(15, 15, 14);
+   background-image:  url(
+ 
+   ) ;
 }
 
 a {
@@ -12,17 +14,17 @@ a {
 }
 
 a:hover {
-    color: rgb(135, 135, 135);
+    color: rgb(124, 124, 124);
 }
 
 main {
     background-color: aqua;
-    background-image: url(imagens/QUALIDADE_BOA_GATO.png);
+    background-image: url(imagens/MENINO\ DEITADO\ \ LEGENDA.jpg);
 
     background-size: 100% 100%;
-    width: 48vw;
-    height: 49vh;
-    margin: auto;
+    width: 90vw;
+    height:65vh;
+    margin:auto;
     margin-top: 50px;
 
 }
